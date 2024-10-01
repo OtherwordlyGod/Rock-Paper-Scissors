@@ -79,6 +79,7 @@ function playGame() {
         console.log(`Your score is: ${computerScore}`);
       }
       console.log("next round");
+      //The positioning/formatting of the code above was taken inspiration from a reddit post from JScarz10. link: https://www.reddit.com/r/learnprogramming/comments/szo1kl/stuck_on_the_odin_project_rock_paper_scissors/
   }
   
   //This if statement logs the win, loss, or tie message into the console after the for loop runs.
