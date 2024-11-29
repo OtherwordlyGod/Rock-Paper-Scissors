@@ -6,15 +6,34 @@
     <title>Document</title>
     <script defer src="./main.js"></script>
     <style>
-       
+        h1 {
+            text-align: center;
+        }
+        #container{
+            display: flex;
+            justify-content: center;
+        }
+        #message {
+            display: inline-block;
+            margin-left: 300px;
+        }
+        #display-player {
+            display: inline-flex;
+            justify-content: center;
+            margin-left: 320px;
+        }
+        #results {
+            display: flex;
+            justify-content: center;
+        }
     </style>
 </head>
 <body>
     <h1>Rock, Paper, Scissors</h1>
     
     <div id = "container"></div>
+    <div id = "message"></div>
     <div id = "display-player"></div>
     <div id = "results"></div>
-    <div id = "message"></div>
 </body>
 </html>
